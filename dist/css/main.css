@@ -17,7 +17,7 @@ body {
 }
 
 body#bg-img {
-  background: url(../dist/img/background.jpg);
+  background: url(../img/background.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
