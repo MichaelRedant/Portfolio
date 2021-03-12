@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>About Me</title>
-</head>
+<?php
+    require('php/head.php');
+?>
 <body>
 
     <header>
@@ -23,16 +16,16 @@
             </div>
             <ul class="menu-nav">
                 <li class="nav-item ">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item current">
-                    <a href="about.html" class="nav-link">About Me</a>
+                    <a href="about.php" class="nav-link">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a href="work.html" class="nav-link">My Work</a>
+                    <a href="work.php" class="nav-link">My Work</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">How To Reach Me</a>
+                    <a href="contact.php" class="nav-link">How To Reach Me</a>
                 </li>
             </ul>
         </nav>
@@ -72,10 +65,6 @@
         
         </div>
     </main>
-
-    <footer id="main-footer">
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Xinu B.V. All Rights Reserved</p>
-    </footer>
-    <script src="js/main.js"></script>
-</body>
-</html>
+    <?php
+    require('php/lower.php');
+    ?>

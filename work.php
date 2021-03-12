@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>View My Work</title>
-</head>
-<body>
-
+<?php
+    require('php/head.php');
+?>
     <header>
         <div class="menu-btn">
             <div class="btn-line"></div>
@@ -23,16 +14,16 @@
             </div>
             <ul class="menu-nav">
                 <li class="nav-item ">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a href="about.html" class="nav-link">About Me</a>
+                    <a href="about.php" class="nav-link">About Me</a>
                 </li>
                 <li class="nav-item current">
-                    <a href="work.html" class="nav-link">My Work</a>
+                    <a href="work.php" class="nav-link">My Work</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">How To Reach Me</a>
+                    <a href="contact.php" class="nav-link">How To Reach Me</a>
                 </li>
             </ul>
         </nav>
@@ -47,7 +38,7 @@
         </h2>
         <div class="projects">
             <div class="item">
-                <a href="#!"> <img src="/dist/img/project1.jpg" alt="project1"></a>
+                <a href="#!"> <img src="img/project1.jpg" alt="project1"></a>
                <a href="#" class="btn-light">
                    <i class="fas fa-eye">Project</i>
                </a>
@@ -57,7 +48,7 @@
             </div>
             
             <div class="item">
-                <a href="#!"> <img src="/dist/img/project2.jpg" alt="project1"></a>
+                <a href="#!"> <img src="img/project2.jpg" alt="project1"></a>
                <a href="#" class="btn-light">
                    <i class="fas fa-eye">Project</i>
                </a>
@@ -67,7 +58,7 @@
             </div>        
 
             <div class="item">
-                <a href="#!"> <img src="/dist/img/project3.jpg" alt="project1"></a>
+                <a href="#!"> <img src="img/project3.jpg" alt="project1"></a>
                <a href="#" class="btn-light">
                    <i class="fas fa-eye">Project</i>
                </a>
@@ -77,7 +68,7 @@
             </div>        
 
             <div class="item">
-                <a href="#!"> <img src="/dist/img/project4.jpg" alt="project1"></a>
+                <a href="#!"> <img src="img/project4.jpg" alt="project1"></a>
                <a href="#" class="btn-light">
                    <i class="fas fa-eye">Project</i>
                </a>
@@ -87,7 +78,7 @@
             </div>        
 
             <div class="item">
-                <a href="#!"> <img src="/dist/img/project5.jpg" alt="project1"></a>
+                <a href="#!"> <img src="img/project5.jpg" alt="project1"></a>
                <a href="#" class="btn-light">
                    <i class="fas fa-eye">Project</i>
                </a>
@@ -97,10 +88,6 @@
             </div>        
         </div>
     </main>
-
-    <footer id="main-footer">
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Xinu B.V. All Rights Reserved</p>
-    </footer>
-    <script src="js/main.js"></script>
-</body>
-</html>
+    <?php
+    require('php/lower.php');
+    ?>
